@@ -8,11 +8,11 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
- end
- 
- group :production do
-   gem 'pg'
- end
+end
+
+group :production do
+  gem 'pg'
+end
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
